@@ -6,5 +6,6 @@
     --Green: hsl(154, 59%, 51%);
     --Blue: hsl(248, 32%, 49%);
     --Dark-Blue: hsl(249, 10%, 26%);
+    --Dark-Blue-a: hsla(249, 10%, 26%, .3);
     --Grayish-Blue: hsl(246, 25%, 77%);
 }

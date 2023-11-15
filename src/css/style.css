@@ -1,5 +1,5 @@
 body {
-    height: 100vh;
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -7,16 +7,111 @@ body {
 }
 
 .main {
-    max-width: 1440px;
+    width: 1440px;
     height: 100vh;
     display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    font-family: var(--fonte-poppins);
+    background: url(../images/bg-intro-desktop.png) var(--Red);
 }
 
+.section-inform {
+    display: flex;
+    flex-direction: column;
+    color: #FFF;
+    gap: 30px;
+}
+
+.section-inform h1 {
+    max-width: 450px;
+    font-size: 48px;
+    font-weight: 700;
+    letter-spacing: .48px;
+    line-height: 54px;
+}
+
+.section-inform p {
+    max-width: 550px;
+}
+
+.section-form {
+    width: 540px;
+    display: flex;
+    flex-direction: column;
+}
+
+.div-section-form {
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 10px;
+    color: #FFF;
+    font-weight: 400;
+    background-color: var(--Blue);
+    border-radius: 10px;
+    margin-bottom: 22px;
+    box-shadow: 0 7px 2px var(--Dark-Blue-a);
+}
+
+.div-section-form span {
+    font-weight: 100;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    background-color: #FFF;
+    gap: 20px;
+    border-radius: 10px;
+    padding: 40px 40px 43px 40px;
+    box-shadow: 0 7px 2px var(--Dark-Blue-a);
+}
+
+.form input, .form button {
+    height: 56px;
+    border-radius: 5px;
+}
+
+.form input {
+    font-family: var(--fonte-poppins);
+    font-size: 14px;
+    font-weight: 700;
+    color: var(--Dark-Blue);
+    border: 1px solid;
+    padding-left: 30px;
+}
+
+.form button {
+    font-size: 15px;
+    font-weight: 700;
+    color: #FFF;
+    text-transform: uppercase;
+    letter-spacing: .2px;
+    background-color: var(--Green);
+    cursor: url(../images/pointer.svg), auto;
+}
+
+.section-form p {
+    text-align: center;
+    color: var(--Grayish-Blue);
+    font-size: 10px;
+    letter-spacing: .5px;
+    margin-top: -5px;
+}
+
+.section-form p strong {
+    color: var(--Red);
+}
 
 .attribution {
     font-size: 11px;
     text-align: center;
 }
+
 .attribution a {
     color: hsl(228, 45%, 44%);
 }
