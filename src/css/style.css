@@ -8,9 +8,8 @@ body {
 
 .main {
     width: 1440px;
-    height: 100vh;
+    height: 800px;
     display: flex;
-    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
     gap: 20px;
@@ -44,21 +43,20 @@ body {
 }
 
 .div-section-form {
-    height: 60px;
     display: flex;
-    align-items: center;
     justify-content: center;
     font-size: 10px;
     color: #FFF;
     font-weight: 400;
     background-color: var(--Blue);
     border-radius: 10px;
-    margin-bottom: 22px;
+    margin-bottom: 21px;
+    padding: 20px;
     box-shadow: 0 7px 2px var(--Dark-Blue-a);
 }
 
 .div-section-form span {
-    font-weight: 100;
+    font-weight: 400;
 }
 
 .form {
@@ -82,12 +80,12 @@ body {
     font-weight: 700;
     color: var(--Dark-Blue);
     border: 1px solid var(--Grayish-Blue);
-    padding-left: 30px;
+    padding-left: 31px;
 }
 
 .form input.error {
     border: 2px solid var(--Red);
-    background: url(../images/icon-error.svg) no-repeat right 5% bottom 50%;
+    background: url(../images/icon-error.svg) no-repeat right 6% bottom 50%;
 }
 
 .form .error::placeholder {
@@ -97,12 +95,13 @@ body {
 .form .div-msg-error {
     display: flex;
     justify-content: end;
-    margin: -15px 0 -5px 0;
+    margin: -15px 0 0px 0;
 }
 
 .form .div-msg-error .p-msg-error {
-    font-size: 10px;
+    font-size: 11px;
     font-style: italic;
+    font-weight: 600;
     color: var(--Red);
 }
 

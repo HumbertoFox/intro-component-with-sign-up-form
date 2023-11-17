@@ -1,7 +1,7 @@
 const selectInput = document.querySelectorAll('input');
 const selectDivInfoError = document.getElementsByClassName('div-msg-error');
 const infoMsg = ["First Name cannot be empty","Last Name cannot be empty",
-                 "Looks like is not on email", "Password cannot be empty" ];
+                 "Looks like this is not on email", "Password cannot be empty" ];
 const infoPlaceHolder = ["First Name", "Last Name", "Email Address", "Password"];
 
 function enviarChecar(){
