@@ -10,7 +10,7 @@ function enviarChecar(){
             selectInput[index].classList.add('error');
             selectInput[index].removeAttribute("placeholder");
             selectDivInfoError[index].style.display = "flex";
-            selectInput[index].nextElementSibling.innerHTML = `<p class="p-msg-error">${infoMsg[index]}</p>`
+            selectDivInfoError[index].innerHTML = `<p class="p-msg-error">${infoMsg[index]}</p>`
             if(index === 2){
                 selectInput[index].setAttribute("placeholder", "email@example/com");
             };
