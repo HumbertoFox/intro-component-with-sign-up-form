@@ -81,6 +81,7 @@ body {
     color: var(--Dark-Blue);
     border: 1px solid var(--Grayish-Blue);
     padding-left: 31px;
+    outline: none;
 }
 
 .form input.error {
